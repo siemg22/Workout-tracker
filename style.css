@@ -828,3 +828,94 @@ button {
     }
 }
 
+@media (max-width: 900px) {
+.topbar {
+align-items: center;
+gap: 15px;
+}
+
+
+.history-button {
+    width: auto;
+    padding: 10px 14px;
+    font-size: 13px;
+    gap: 7px;
+    border-radius: 9px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+
+}
+
+
+@media (max-width: 700px) {
+.topbar {
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+gap: 10px;
+}
+
+
+.brand {
+    min-width: 0;
+    gap: 9px;
+}
+
+.brand-icon {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    font-size: 17px;
+}
+
+.brand h1 {
+    font-size: 18px;
+}
+
+.brand span {
+    font-size: 11px;
+}
+
+.history-button {
+    width: auto;
+    padding: 9px 11px;
+    font-size: 12px;
+    gap: 6px;
+    border-radius: 8px;
+}
+
+
+}
+
+
+@media (max-width: 450px) {
+.brand {
+gap: 7px;
+}
+
+
+.brand-icon {
+    width: 34px;
+    height: 34px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.brand h1 {
+    font-size: 15px;
+}
+
+.brand span {
+    font-size: 10px;
+}
+
+.history-button {
+    padding: 8px 9px;
+    font-size: 11px;
+    gap: 5px;
+}
+
+
+}
